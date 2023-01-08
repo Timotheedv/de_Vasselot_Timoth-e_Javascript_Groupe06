@@ -1,0 +1,14 @@
+.img1{
+    width: 1000px;
+    height: 450px;
+    margin-bottom: 30px;
+    margin-right: 25%;
+    border: 1px solid;
+    color: white;
+}
+
+
+.img-card {
+    height: 300px;
+    width: 200px;
+}

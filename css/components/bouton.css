@@ -1,0 +1,38 @@
+.bouton {
+   
+    border-radius: 99999px;
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: black;
+    
+ }
+
+
+ .bouton:hover {
+   background-color:rgb(161, 170, 177);
+    transition: 1s;
+    }
+    
+
+
+    
+    
+
+ .bouton-rectangle {
+   
+   background-color: #000000;
+    border: none;
+    cursor: pointer;
+    width: 115px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-color: black;
+    margin-right: 30%;
+    text-align: center;
+    }
+
+

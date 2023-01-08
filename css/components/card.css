@@ -1,0 +1,106 @@
+/* Mise en page */
+.container {
+  display: flex;
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+
+}
+
+
+.container2 {
+  width: 500px;
+  height: 0px;
+  margin: 0 auto;
+}
+
+  .cards {
+    
+    width: 250px;
+    height: 420px;
+    border: 1px solid;
+    border-color: White;
+    border-radius: 10px;
+    padding: 30px;
+    opacity: 0.4;
+    transform: translateY(300px);
+    transition: transform 0.5s ease;
+  }
+  
+  /* couleur de mes cards */
+  #card0 {
+   background-color: black;
+    
+  }
+  
+  #card1 {
+   background-color: black;
+  }
+  
+  #card2 {
+   background-color: black;
+  }
+  
+  #card3 {
+   background-color: black;
+  }
+  
+  #card4 {
+   background-color: black;
+  }
+  
+  /* Etat qui vient écraser le premier lorsque le container obtient la classe active */
+  
+ .active {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  
+  
+  
+  .img-card {
+    width: 198px;
+    height: 250 px;
+     border: 2px solid;
+     color: white ; 
+      margin-right: 10px;
+  }
+  
+
+
+  /*bouton pour activer*/
+  .btn-action {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid;
+    color: black;
+    background-color: white;
+    padding: 50px;
+    border-radius: 99999px;
+    margin-bottom: 100px;
+  }
+
+  .btn-action:hover{
+    background-color:rgb(161, 170, 177);
+    transition: 1s;
+    }
+
+
+    .btn-cards{
+     background-color: white;
+     color: black;
+     width: 200px; 
+      height: 65px;
+      padding: 0.5rem 3rem ;
+      cursor: pointer;
+      margin-top: 8px;
+      border-radius: 0.25rem;
+      margin-right: 30%;
+      border-radius: 10px;
+    }
+
+    .btn-cards:hover{
+      background-color:rgb(161, 170, 177);
+    transition: 1s;
+    }
+    
